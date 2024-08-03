@@ -20,6 +20,11 @@
             <name>e-iceblue</name>
             <url>https://repo.e-iceblue.com/nexus/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>groupdocs-artifacts-repository</id>
+            <name>GroupDocs Artifacts Repository</name>
+            <url>https://repository.groupdocs.com/repo/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -36,6 +41,11 @@
             <version>3.0.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.groupdocs</groupId>
+            <artifactId>groupdocs-conversion</artifactId>
+            <version>22.12</version>
+        </dependency>
     </dependencies>
 
 </project>
